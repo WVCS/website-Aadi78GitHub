@@ -1,3 +1,38 @@
 body {
+  background-color: #BAA4EB
+}
+h2 {
+  color: #63458A;
+  text-align: center;
+}
 
+img {
+  width: 115vh;
+  border: dotted purple 5px;
+}
+img:hover{
+  width:150px;
+  border: solid black 7px
+}
+nav {
+  list-style-type: none;
+  background-color: aquamarine;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+li {
+  display: inline;
+  padding: 13px;
+  float: right;
+}
+
+li:hover {
+  background-color:purple;
+}
+a{
+  text-decoration:none;
+  color:green;
+  letter-spacing:5px;
 }
