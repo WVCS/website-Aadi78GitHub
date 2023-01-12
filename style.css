@@ -1,4 +1,5 @@
-body {
+<style>
+   body {
   background-color: #BAA4EB
 }
 h2 {
@@ -11,7 +12,7 @@ img {
   border: dotted purple 5px;
 }
 img:hover{
-  width:150px;
+  width:120vh;
   border: solid black 7px
 }
 nav {
@@ -29,10 +30,11 @@ li {
 }
 
 li:hover {
-  background-color:purple;
+  background-color:green;
 }
 a{
   text-decoration:none;
   color:green;
   letter-spacing:5px;
 }
+</style>
